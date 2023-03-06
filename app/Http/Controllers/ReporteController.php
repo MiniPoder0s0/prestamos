@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\DB;
 
 class ReporteController extends Controller
 {
+
     public function consultar(){
         $reportes= Reporte::with(['detalle', 'tipo'])->get();
         return view('reporte.consultar', compact('reportes') );

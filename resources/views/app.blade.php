@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SIGARE - Sistema de Gestión y Almacenamiento de Reportes</title>
+  <title> PRESIVAN - Prestamos Iván</title>
   <link rel="icon" type="image/x-icon" href="{{ url('images/logohb.ico') }}">
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -137,7 +137,7 @@
           <!-- Brand Logo -->
           <a href="{{asset('/home')}}" class="brand-link">
             <img src="{{ url('images/AdminLTELogo.png') }}" alt="baessh" class="brand-image img-circle elevation-3" style="opacity: .8">
-            <span class="brand-text font-weight-light">Proyecto base</span>
+            <span class="brand-text font-weight-light">Prestamos</span>
           </a>
 
           <!-- Sidebar -->
@@ -191,82 +191,40 @@
                   <a href="#" class="nav-link">
                     <i class="far fa-copy nav-icon"></i>
                     <p>
-                       Registrar reportes
+                       Registrar Prestamo
                       <i class="fas fa-angle-left right"></i>
                     </p>
                   </a>
                   <ul class="nav nav-treeview">
                     <!--<li class="nav-item">
-                      <a href="{{asset('/alumno/consultar')}}" class="nav-link">
+                      <a href="{{asset('/prestamo/consultar')}}" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Consultar</p>
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a href="{{asset('/alumno/registrar')}}" class="nav-link">
+                      <a href="{{asset('/prestamo/registrar')}}" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Registrar</p>
                       </a>
                     </li>-->
                     <li class="nav-item">
-                      <a href="{{asset('/reporte/individual')}}" class="nav-link">
+                      <a href="{{asset('/prestamo/individual')}}" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
-                        <p>Individual</p>
+                        <p>Generar Prestamo</p>
                       </a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="{{asset('/reporte/grupal')}}" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Grupal</p>
-                      </a>
-                    </li><li class="nav-item">
-                      <a href="{{asset('/reporte/justificante')}}" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Justificante</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="{{asset('/reporte/baja')}}" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Baja</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="{{asset('/reporte/cartaBuenaConducta')}}" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Carta buena conducta</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="{{asset('/reporte/cartaCondicional')}}" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Carta condicional</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="{{asset('/reporte/cartaCompromiso')}}" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Carta compromiso</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="{{asset('/reporte/canalizacion')}}" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Canalización</p>
-                      </a>
-                    </li>
                   </ul>
                 </li>
                 <li class="nav-item">
-                      <a href="{{asset('/reporte/consultar')}}" class="nav-link">
+                      <a href="{{asset('/prestamo/consultar')}}" class="nav-link">
                         <i class="fas fa-book nav-icon"></i>
-                        <p>Consultar reportes</p>
+                        <p>Consultar Prestamos</p>
                       </a>
                 </li>
                 <li class="nav-item">
                       <a href="{{asset('/consultar/alumnos')}}" class="nav-link">
                         <i class="fas fa-address-book  nav-icon"></i>
-                        <p>Consultar alumnos</p>
+                        <p>Consultar Personas ????</p>
                       </a>
                 </li>
                 <!-- <li class="nav-item">
